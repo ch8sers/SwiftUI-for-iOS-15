@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AccountView: View {
+    @State var isDeleted = false
+    
     var body: some View {
         NavigationView {
             List {
@@ -55,27 +57,41 @@ struct AccountView: View {
                 .listRowSeparatorTint(.blue)
                 .listRowSeparator(.hidden)
                 
-                Section {
-                    Link(destination: URL(string: "https://apple.com")!) {
-                        HStack {
-                            Label("Website", systemImage: "house")
-                            Spacer()
-                            Image(systemName: "link")
-                                .foregroundColor(.secondary)
+                    Section {
+                        if !isDeleted {
+                        Link(destination: URL(string: "https://apple.com")!) {
+                            HStack {
+                                Label("Website", systemImage: "house")
+                                Spacer()
+                                Image(systemName: "link")
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                        .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                            Button(action: { isDeleted = true }) {
+                                Label("Delete", systemImage: "trash")
+                            }
+                            .tint(.red)
+                            
+                            Button {} label: {
+                                Label("Pin", systemImage: "pin")
+                            }
+                            .tint(.yellow)
+                            }
+                        }
+                        
+                        Link(destination: URL(string: "https://ch8setech.com")!) {
+                            HStack {
+                                Label("Portfolio", systemImage: "dpad.down.filled")
+                                Spacer()
+                                Image(systemName: "link")
+                                    .foregroundColor(.secondary)
+                            }
                         }
                     }
-                    
-                    Link(destination: URL(string: "https://ch8setech.com")!) {
-                        HStack {
-                            Label("Portfolio", systemImage: "dpad.down.filled")
-                            Spacer()
-                            Image(systemName: "link")
-                                .foregroundColor(.secondary)
-                        }
-                    }
-                }
-                .accentColor(.primary)
+                    .accentColor(.primary)
                 .listRowSeparator(.hidden)
+                
                 
             }
             .listStyle(.insetGrouped)
