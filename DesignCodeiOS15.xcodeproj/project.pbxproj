@@ -11,6 +11,8 @@
 		7910672B2881CEDF005686B8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910672A2881CEDF005686B8 /* AccountView.swift */; };
 		791949362881F8EA000EBD48 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791949352881F8EA000EBD48 /* HexagonView.swift */; };
 		79194938288212F1000EBD48 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79194937288212F1000EBD48 /* BlobView.swift */; };
+		7919493E28830C91000EBD48 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919493D28830C91000EBD48 /* TabBar.swift */; };
+		7919494028832799000EBD48 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919493F28832799000EBD48 /* Tab.swift */; };
 		798BF5B92881B12E0040C7BD /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BF5B82881B12E0040C7BD /* DesignCodeiOS15App.swift */; };
 		798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BF5BA2881B12E0040C7BD /* ContentView.swift */; };
 		798BF5BD2881B12F0040C7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BC2881B12F0040C7BD /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		7910672A2881CEDF005686B8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		791949352881F8EA000EBD48 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		79194937288212F1000EBD48 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		7919493D28830C91000EBD48 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7919493F28832799000EBD48 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		798BF5B52881B12E0040C7BD /* DesignCodeiOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798BF5B82881B12E0040C7BD /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		798BF5BA2881B12E0040C7BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				798BF5B82881B12E0040C7BD /* DesignCodeiOS15App.swift */,
 				798BF5BA2881B12E0040C7BD /* ContentView.swift */,
+				7919493D28830C91000EBD48 /* TabBar.swift */,
+				7919493F28832799000EBD48 /* Tab.swift */,
 				791949352881F8EA000EBD48 /* HexagonView.swift */,
 				791067282881C91D005686B8 /* Styles.swift */,
 				7910672A2881CEDF005686B8 /* AccountView.swift */,
@@ -152,9 +158,11 @@
 				7910672B2881CEDF005686B8 /* AccountView.swift in Sources */,
 				791949362881F8EA000EBD48 /* HexagonView.swift in Sources */,
 				791067292881C91D005686B8 /* Styles.swift in Sources */,
+				7919494028832799000EBD48 /* Tab.swift in Sources */,
 				79194938288212F1000EBD48 /* BlobView.swift in Sources */,
 				798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */,
 				798BF5B92881B12E0040C7BD /* DesignCodeiOS15App.swift in Sources */,
+				7919493E28830C91000EBD48 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
