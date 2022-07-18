@@ -23,6 +23,7 @@
 		7919495528844BB7000EBD48 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919495428844BB7000EBD48 /* CourseItem.swift */; };
 		7919495728844C85000EBD48 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919495628844C85000EBD48 /* CourseView.swift */; };
 		7975888D2885B02900CE50C3 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975888C2885B02900CE50C3 /* Animations.swift */; };
+		7975888F2885C55900CE50C3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975888E2885C55900CE50C3 /* Model.swift */; };
 		798BF5B92881B12E0040C7BD /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BF5B82881B12E0040C7BD /* DesignCodeiOS15App.swift */; };
 		798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BF5BA2881B12E0040C7BD /* ContentView.swift */; };
 		798BF5BD2881B12F0040C7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BC2881B12F0040C7BD /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		7919495428844BB7000EBD48 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		7919495628844C85000EBD48 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		7975888C2885B02900CE50C3 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		7975888E2885C55900CE50C3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		798BF5B52881B12E0040C7BD /* DesignCodeiOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798BF5B82881B12E0040C7BD /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		798BF5BA2881B12E0040C7BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				7919493F28832799000EBD48 /* Tab.swift */,
 				7919494C2883E1B6000EBD48 /* PreferenceKeys.swift */,
 				791949502883E9C7000EBD48 /* Course.swift */,
+				7975888E2885C55900CE50C3 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				791949492883D935000EBD48 /* FeaturedItem.swift in Sources */,
 				7975888D2885B02900CE50C3 /* Animations.swift in Sources */,
 				7919494D2883E1B6000EBD48 /* PreferenceKeys.swift in Sources */,
+				7975888F2885C55900CE50C3 /* Model.swift in Sources */,
 				7919493E28830C91000EBD48 /* TabBar.swift in Sources */,
 				7919494F2883E6E2000EBD48 /* AnimatableFontModifier.swift in Sources */,
 			);
