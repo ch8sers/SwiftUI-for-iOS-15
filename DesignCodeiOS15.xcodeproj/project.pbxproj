@@ -33,6 +33,8 @@
 		7997B9722886A09700F9B83B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9712886A09700F9B83B /* SignUpView.swift */; };
 		7997B9742886BD6D00F9B83B /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */; };
 		7997B9762886E41E00F9B83B /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9752886E41E00F9B83B /* InputStyle.swift */; };
+		7997B97828871F3F00F9B83B /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B97728871F3F00F9B83B /* ModalView.swift */; };
+		7997B97A288722ED00F9B83B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B979288722ED00F9B83B /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		7997B9712886A09700F9B83B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		7997B9752886E41E00F9B83B /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
+		7997B97728871F3F00F9B83B /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		7997B979288722ED00F9B83B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +96,11 @@
 				791949412883D21C000EBD48 /* HomeView.swift */,
 				7910672A2881CEDF005686B8 /* AccountView.swift */,
 				7997B9712886A09700F9B83B /* SignUpView.swift */,
+				7997B979288722ED00F9B83B /* SignInView.swift */,
 				791949522883F9A4000EBD48 /* MatchedView.swift */,
 				7919495628844C85000EBD48 /* CourseView.swift */,
 				797588902885DD0100CE50C3 /* SearchView.swift */,
+				7997B97728871F3F00F9B83B /* ModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 				7919494B2883DA47000EBD48 /* NavigationBar.swift in Sources */,
 				7997B9742886BD6D00F9B83B /* AngularButtonStyle.swift in Sources */,
 				79194938288212F1000EBD48 /* BlobView.swift in Sources */,
+				7997B97A288722ED00F9B83B /* SignInView.swift in Sources */,
 				798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */,
 				791949512883E9C7000EBD48 /* Course.swift in Sources */,
 				798BF5B92881B12E0040C7BD /* DesignCodeiOS15App.swift in Sources */,
@@ -267,6 +274,7 @@
 				7975888F2885C55900CE50C3 /* Model.swift in Sources */,
 				7919493E28830C91000EBD48 /* TabBar.swift in Sources */,
 				7919494F2883E6E2000EBD48 /* AnimatableFontModifier.swift in Sources */,
+				7997B97828871F3F00F9B83B /* ModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
