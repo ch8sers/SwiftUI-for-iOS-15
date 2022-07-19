@@ -31,6 +31,7 @@
 		798BF5BD2881B12F0040C7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BC2881B12F0040C7BD /* Assets.xcassets */; };
 		798BF5C02881B12F0040C7BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */; };
 		7997B9722886A09700F9B83B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9712886A09700F9B83B /* SignUpView.swift */; };
+		7997B9742886BD6D00F9B83B /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		798BF5BC2881B12F0040C7BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7997B9712886A09700F9B83B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				791067282881C91D005686B8 /* Styles.swift */,
 				7919494E2883E6E2000EBD48 /* AnimatableFontModifier.swift */,
 				7975888C2885B02900CE50C3 /* Animations.swift */,
+				7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				791949532883F9A4000EBD48 /* MatchedView.swift in Sources */,
 				7919494028832799000EBD48 /* Tab.swift in Sources */,
 				7919494B2883DA47000EBD48 /* NavigationBar.swift in Sources */,
+				7997B9742886BD6D00F9B83B /* AngularButtonStyle.swift in Sources */,
 				79194938288212F1000EBD48 /* BlobView.swift in Sources */,
 				798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */,
 				791949512883E9C7000EBD48 /* Course.swift in Sources */,

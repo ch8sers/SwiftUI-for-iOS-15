@@ -19,7 +19,8 @@ struct SignUpView: View {
                     .frame(maxWidth: .infinity)
                 
             }
-            .buttonStyle(.bordered)
+            .font(.headline)
+            .buttonStyle(.angular)
             .tint(.accentColor)
             .controlSize(.large)
         }
