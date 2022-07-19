@@ -1,5 +1,5 @@
 //
-//  SignUpView.swift
+//  SignInView.swift
 //  DesignCodeiOS15
 //
 //  Created by The Ch8sers Inc. on 7/19/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SignUpView: View {
+struct SignInView: View {
     enum Field: Hashable {
         case email
         case password
@@ -20,12 +20,12 @@ struct SignUpView: View {
     @State var emailY: CGFloat = 0
     @State var passwordY: CGFloat = 0
     @State var circleColor: Color = .blue
-    @EnvironmentObject var model: Model
+    @EnvironmentObject var model : Model
     
     
     var body: some View {
         VStack (alignment: .leading, spacing: 16) {
-            Text("Sign Up")
+            Text("Sign In")
                 .font(.largeTitle).bold()
             Text("Access 120+ hours of courses, tutorials and livestreams")
                 .font(.headline)
@@ -53,7 +53,7 @@ struct SignUpView: View {
                 }
                 
             Button {} label: {
-                Text("Create An Account")
+                Text("Sign In")
                     .frame(maxWidth: .infinity)
                 
             }
@@ -62,20 +62,18 @@ struct SignUpView: View {
             .buttonStyle(.angular)
             .tint(.accentColor)
             .controlSize(.large)
+            .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
             
             Group {
-                Text("By clicking on .")
-                + Text("__Create an Account__").foregroundColor(.primary.opacity(0.7))
-                + Text(", you agree to our **Terms of Service** and **[Privacy Policy](https://designcode.io)**")
                 
                 Divider()
                 
                 HStack {
-                    Text("Already have an Account?")
+                    Text("No Account Yet?")
                     Button {
-                        model.selectedModal = .signIn
+                        model.selectedModal = .signUp
                     } label: {
-                        Text("**Sign In**")
+                        Text("**Sign Up**")
                     }
                 }
             }
@@ -94,11 +92,6 @@ struct SignUpView: View {
         )
         .coordinateSpace(name: "container")
         .strokeStyle(cornerRadius: 30)
-        .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
-        .padding(20)
-        .background(
-            Image("Blob 1").offset(x: 200, y: -100)
-        )
         .onChange(of: focusedField) { value in
             withAnimation {
                 if value == .email {
@@ -120,10 +113,10 @@ struct SignUpView: View {
     }
 }
 
-struct SignUpView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            SignUpView()
+            SignInView()
                 .environmentObject(Model())
         }
     }
