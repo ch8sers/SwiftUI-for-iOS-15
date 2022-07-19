@@ -32,6 +32,7 @@
 		798BF5C02881B12F0040C7BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */; };
 		7997B9722886A09700F9B83B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9712886A09700F9B83B /* SignUpView.swift */; };
 		7997B9742886BD6D00F9B83B /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */; };
+		7997B9762886E41E00F9B83B /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9752886E41E00F9B83B /* InputStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7997B9712886A09700F9B83B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
+		7997B9752886E41E00F9B83B /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				7919494E2883E6E2000EBD48 /* AnimatableFontModifier.swift */,
 				7975888C2885B02900CE50C3 /* Animations.swift */,
 				7997B9732886BD6D00F9B83B /* AngularButtonStyle.swift */,
+				7997B9752886E41E00F9B83B /* InputStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				7997B9722886A09700F9B83B /* SignUpView.swift in Sources */,
 				7975888D2885B02900CE50C3 /* Animations.swift in Sources */,
 				7919494D2883E1B6000EBD48 /* PreferenceKeys.swift in Sources */,
+				7997B9762886E41E00F9B83B /* InputStyle.swift in Sources */,
 				7975888F2885C55900CE50C3 /* Model.swift in Sources */,
 				7919493E28830C91000EBD48 /* TabBar.swift in Sources */,
 				7919494F2883E6E2000EBD48 /* AnimatableFontModifier.swift in Sources */,
