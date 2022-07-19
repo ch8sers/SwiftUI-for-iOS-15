@@ -30,6 +30,7 @@
 		798BF5BB2881B12E0040C7BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BF5BA2881B12E0040C7BD /* ContentView.swift */; };
 		798BF5BD2881B12F0040C7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BC2881B12F0040C7BD /* Assets.xcassets */; };
 		798BF5C02881B12F0040C7BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */; };
+		7997B9722886A09700F9B83B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7997B9712886A09700F9B83B /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		798BF5BA2881B12E0040C7BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		798BF5BC2881B12F0040C7BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798BF5BF2881B12F0040C7BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7997B9712886A09700F9B83B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				791949412883D21C000EBD48 /* HomeView.swift */,
 				7910672A2881CEDF005686B8 /* AccountView.swift */,
+				7997B9712886A09700F9B83B /* SignUpView.swift */,
 				791949522883F9A4000EBD48 /* MatchedView.swift */,
 				7919495628844C85000EBD48 /* CourseView.swift */,
 				797588902885DD0100CE50C3 /* SearchView.swift */,
@@ -250,6 +253,7 @@
 				798BF5B92881B12E0040C7BD /* DesignCodeiOS15App.swift in Sources */,
 				7919495528844BB7000EBD48 /* CourseItem.swift in Sources */,
 				791949492883D935000EBD48 /* FeaturedItem.swift in Sources */,
+				7997B9722886A09700F9B83B /* SignUpView.swift in Sources */,
 				7975888D2885B02900CE50C3 /* Animations.swift in Sources */,
 				7919494D2883E1B6000EBD48 /* PreferenceKeys.swift in Sources */,
 				7975888F2885C55900CE50C3 /* Model.swift in Sources */,
